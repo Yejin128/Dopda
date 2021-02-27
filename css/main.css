@@ -15,7 +15,6 @@ body {
     font-size: 14px;
     color:#4e4e4e; 
     line-height: 1.4;
-    margin-top:120px;
 
 }
 .wrap {
@@ -79,6 +78,46 @@ header nav .gnb li a:after {
 header nav .gnb li a:hover:after, header nav .gnb li a:focus:after {
     width: 100%;              
   }
+
+/*visual*/
+section.visual{
+    margin-top:120px;
+    padding-bottom:50px;
+    position: relative;
+
+}
+section.visual:before{
+    content:'';
+    position: absolute;
+    width:53%;
+    height:400px;
+    bottom:0;
+    right:0;
+    background:#f0f0f0;
+
+}
+section.visual .image{
+    width:94%;
+    height:100vh;
+    background: url("../img/main_visual.jpg");
+    position: relative;
+    text-align:center;
+}
+section.visual .title{
+    position: absolute;
+    top:40%;
+    left:8%;
+}
+section.visual .title h2{
+    color:white;
+    font-size:50px;
+    margin-bottom:30px;
+}
+section.visual .title p{
+    color:white;
+    font-size:20px;
+    font-weight: 300;
+}
 
 
 
